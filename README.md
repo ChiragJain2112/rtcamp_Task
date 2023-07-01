@@ -1,4 +1,5 @@
 # Prerequisites before installing and running the script in your ubuntu machine.
+* Python3
 * To install python3 by runing th below command in the privilege mode(as a root user):
 * `sudo su`
 * `apt install python3 -y`
