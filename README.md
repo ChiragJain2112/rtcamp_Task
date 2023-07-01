@@ -25,14 +25,17 @@ To install docker and docker-compose run the task1 script in your Ubuntu machine
   4. P-PHP.
 * So, the first step towards the creation of LEMP stack which will be running inside the Docker container but creating multiple containers at a single time by just a singal click, docker-compose file is must. As you can see, the source code contain the docker-compose with version "3.9" with 3 containers under the singal service.
 * When we will execute the `task3.py` file, it will be searching for docker-compose file with appropiate docker-compose command like
-  1. docker-compose up -d
-  2. docker-compose down
-  3. dcoker-compose ps
-  4. docker-compose build
-  5. docker-compose logs
-  6. docker-compose restart
-  7. docker-compose start
-  8. docker-compose stop
+  1. `docker-compose up -d`
+  2. `docker-compose down`
+  3. `dcoker-compose ps`
+  4. `docker-compose build`
+  5. `docker-compose logs`
+  6. `docker-compose restart`
+  7. `docker-compose start`
+  8. `docker-compose stop`
 * You don't need to write full command as written above, just write the last keyword like `up -d/down/stop/start/build/logs/ps` etc. Inside the task3.py file everything is setup properly in appropiate manner.
+# Task4
+**Create the command line script in python to create a /etc/hosts entry for example.com pointing to localhost. Here we are assuming the user has provided example.com as the site name**
+* By executing this file with command `python3 task4.py` it will prompt us into the etc folder and search for hosts file and make a entry example.com which is pointing to localhost.
 
   
