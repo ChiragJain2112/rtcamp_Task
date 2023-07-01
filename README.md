@@ -18,6 +18,6 @@ To install docker and docker-compose run the task1 script in your Ubuntu machine
 # Task3
 **Create a command line script in python, it must be a LEMP stack running inside containers (Docker) and a docker-compose file is a must.**
 * Let's understand about the LEMP stack.
-  1.
-  2.
+* 1. 
+* 2.
   
