@@ -1,6 +1,6 @@
 # Prerequisites before installing and running the script in your ubuntu machine .
 * install python3 by runing th below command in the privilege mode(as a root user):
-* [sudo su]
+* `sudo su`
 * [apt install python3 -y]
 *  Ubuntu is Debian Based operating system which use apt or apt-get red hat based operating system use yum to install anything
 # Task1 
