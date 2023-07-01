@@ -6,6 +6,6 @@
 # Task1 
 <br>
   Created a command-line script in Python to perform this task, Checking if docker and docker-compose is installed on the system. If not present, install the missing 
-  packages.<br>
+  packages.<br/>
+  
   To install and run the first script in your Ubuntu machine which is Debian based operation system follow the below steps:
-*
