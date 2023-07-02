@@ -36,6 +36,19 @@ To install docker and docker-compose run the task1 script in your Ubuntu machine
 * You don't need to write full command as written above, just write the last keyword like `up -d/down/stop/start/build/logs/ps` etc. Inside the task3.py file everything is setup properly in appropiate manner.
 # Task4
 **Create the command line script in python to create a /etc/hosts entry for example.com pointing to localhost. Here we are assuming the user has provided example.com as the site name**
-* By executing this file with command `python3 task4.py` it will prompt us into the etc folder and search for hosts file and make a entry example.com which is pointing to localhost.
-
-  
+* By executing this file with command `python3 task4.py` it will prompt into the etc folder and search for hosts file and make a entry example.com which is pointing to localhost `127.0.0.1 example.com`.
+* In this file task4.py we already provided the site name as example.com so at the time of execution it wil not ask for site name as input.
+* Just apply the command `python3 task4.py`.
+# Task5
+**Create the command line script in python which prompt the user to open example.com in a browser if all goes well and the site is up and healthy.**
+* This script will prompt the user to open the example.com in browser as we have discussed above, how the script is making an entry into the /etc/hosts file.
+* When we wil be executing the file `python3 task5.py`, it will ask for the site name as per our choice.
+# Task6
+**Create the command line script in python to add another subcommand to enable/disable the site (stopping/starting the containers)**
+* Creating two more function in same script, whenever the one execute the `task6.py` file by applying the command `python3 task6.py`
+* Then, on the terminal a query will be asking by the script for enabling/disabling the site (stopping/starting).
+* User just have to type what the one want to do with it.
+# Task7
+**Create the command line script in python to add one more subcommand to delete the site (deleting containers and local files).**
+* Creating one more function in same script, whenever the one execute the `task7.py` file by applying command `python3 task7.py`
+* Then, on the terminal a query will be asking by the script for deleting the site with the container and it's local file's.
