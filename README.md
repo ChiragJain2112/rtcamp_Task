@@ -52,4 +52,3 @@ To install docker and docker-compose run the task1 script in your Ubuntu machine
 **Create the command line script in python to add one more subcommand to delete the site (deleting containers and local files).**
 * Creating one more function in same script, whenever the one execute the `task7.py` file by applying command `python3 task7.py`
 * Then, on the terminal a query will be asking by the script for deleting the site with the container and it's local file's.
-* 
